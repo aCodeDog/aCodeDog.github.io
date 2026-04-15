@@ -19,7 +19,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-My name is <span class="accent-text">Zifan Wang</span>. I am a postgraduate student at <i class="fas fa-university"></i> **The Hong Kong University of Science and Technology (HKUST), Guangzhou Campus**.
+My name is <span class="accent-text">Zifan Wang</span>. I am a PhD student in Artificial Intelligence at <i class="fas fa-university"></i> **The Hong Kong University of Science and Technology (Guangzhou)**, supervised by Prof. Junwei Liang.
 
 <div class="quote-accent">
 My primary research focus is on <span class="primary-gradient-text">legged robots</span>, including quadrupeds, humanoids, and wheeled-legged robots. I work on optimal control, reinforcement learning, and loco-manipulation.
@@ -69,6 +69,7 @@ If you have any interesting projects related to legged robots, please contact me
 ## Manipulation & Imitation Learning
 
 <div class='paper-box floating-card'>
+  <div class='paper-box-image'><img src='images/papers/vla_cross_task.png' alt='VLA Cross-Task' /></div>
   <div class='paper-box-text'>
     <h3>Exploring the Limits of Vision-Language-Action Manipulations in Cross-Task Generalization</h3>
     <div class="authors">J Zhou, K Ye, J Liu, T Ma, <strong>Z Wang</strong>, R Qiu, KY Lin, Z Zhao, J Liang</div>
@@ -77,6 +78,7 @@ If you have any interesting projects related to legged robots, please contact me
 </div>
 
 <div class='paper-box floating-card'>
+  <div class='paper-box-image'><img src='images/papers/glover_pp.jpg' alt='GLOVER++' /></div>
   <div class='paper-box-text'>
     <h3>GLOVER++: Unleashing the Potential of Affordance Learning from Human Behaviors for Robotic Manipulation</h3>
     <div class="authors">T Ma, J Zheng, <strong>Z Wang</strong>, Z Gao, J Zhou, J Liang</div>
@@ -85,6 +87,7 @@ If you have any interesting projects related to legged robots, please contact me
 </div>
 
 <div class='paper-box floating-card'>
+  <div class='paper-box-image'><img src='images/papers/contrastive_il.png' alt='Contrastive IL' /></div>
   <div class='paper-box-text'>
     <h3>Contrastive Imitation Learning for Language-guided Multi-Task Robotic Manipulation</h3>
     <div class="authors">T Ma, J Zhou, <strong>Z Wang</strong>, R Qiu, J Liang</div>
@@ -96,6 +99,7 @@ If you have any interesting projects related to legged robots, please contact me
 </div>
 
 <div class='paper-box floating-card'>
+  <div class='paper-box-image'><img src='images/papers/cvpr_human_robot.png' alt='Human-Robot Domain' /></div>
   <div class='paper-box-text'>
     <h3>Mitigating the Human-Robot Domain Discrepancy in Visual Pre-training for Robotic Manipulation</h3>
     <div class="authors">J Zhou, T Ma, KY Lin, <strong>Z Wang</strong>, R Qiu, J Liang</div>
@@ -107,10 +111,11 @@ If you have any interesting projects related to legged robots, please contact me
 </div>
 
 <div class='paper-box floating-card'>
+  <div class='paper-box-image'><img src='images/papers/glover.png' alt='GLOVER' /></div>
   <div class='paper-box-text'>
     <h3>GLOVER: Generalizable Open-Vocabulary Affordance Reasoning for Task-Oriented Grasping</h3>
     <div class="authors">T Ma, <strong>Z Wang</strong>, J Zhou, M Wang, J Liang</div>
-    <div class="venue">CoRL 2024 GenPriors Workshop</div>
+    <div class="venue">CoRL 2024 GenPriors Workshop <span class="badge">Best Paper Award</span></div>
     <div class="links">
       <a href="https://teleema.github.io/projects/GLOVER/" class="btn-accent"><i class="fas fa-globe"></i> Project Page</a>
     </div>
@@ -120,10 +125,11 @@ If you have any interesting projects related to legged robots, please contact me
 ## Loco-Manipulation
 
 <div class='paper-box floating-card'>
+  <div class='paper-box-image'><img src='images/papers/loco_manipulation.png' alt='Loco-Manipulation' /></div>
   <div class='paper-box-text'>
     <h3>Arm-Constrained Curriculum Learning for Loco-Manipulation of a Wheel-Legged Robot</h3>
     <div class="authors"><strong>Z Wang</strong>, Y Jia, L Shi, H Wang, H Zhao, X Li, J Zhou, J Ma, G Zhou</div>
-    <div class="venue">IROS 2024</div>
+    <div class="venue">IROS 2024 <span class="badge">Oral</span></div>
     <div class="links">
       <a href="https://github.com/aCodeDog/legged-robots-manipulation" class="btn-accent"><i class="fab fa-github"></i> Code</a>
     </div>
@@ -133,10 +139,11 @@ If you have any interesting projects related to legged robots, please contact me
 ## Locomotion
 
 <div class='paper-box floating-card'>
+  <div class='paper-box-image'><img src='images/papers/omni_perception.png' alt='Omni-Perception' /></div>
   <div class='paper-box-text'>
     <h3>Omni-Perception: Omnidirectional Collision Avoidance for Legged Locomotion in Dynamic Environments</h3>
     <div class="authors"><strong>Z Wang</strong>, T Ma, Y Jia, X Yang, J Zhou, W Ouyang, Q Zhang, J Liang</div>
-    <div class="venue">CoRL 2025</div>
+    <div class="venue">CoRL 2025 <span class="badge">Oral</span></div>
     <div class="links">
       <a href="https://acodedog.github.io/OmniPerceptionPages/" class="btn-accent"><i class="fas fa-globe"></i> Project Page</a>
       <a href="https://github.com/aCodeDog/OmniPerception" class="btn-accent"><i class="fab fa-github"></i> Code</a>
@@ -145,6 +152,7 @@ If you have any interesting projects related to legged robots, please contact me
 </div>
 
 <div class='paper-box floating-card'>
+  <div class='paper-box-image'><img src='images/papers/humanoid_locomotion.jpg' alt='Humanoid Locomotion' /></div>
   <div class='paper-box-text'>
     <h3>End-to-End Humanoid Robot Safe and Comfortable Locomotion Policy</h3>
     <div class="authors"><strong>Z Wang</strong>, X Yang, J Zhao, J Zhou, T Ma, Z Gao, A Ajoudani, J Liang</div>
@@ -153,6 +161,7 @@ If you have any interesting projects related to legged robots, please contact me
 </div>
 
 <div class='paper-box floating-card'>
+  <div class='paper-box-image'><img src='images/papers/diffusion_planner.jpg' alt='Diffusion Planner' /></div>
   <div class='paper-box-text'>
     <h3>Preference Aligned Diffusion Planner for Quadrupedal Locomotion Control</h3>
     <div class="authors">X Yuan, Z Shang, <strong>Z Wang</strong>, C Wang, Z Shan, M Zhu, C Bai, X Li, W Wan, et al.</div>
@@ -164,6 +173,7 @@ If you have any interesting projects related to legged robots, please contact me
 </div>
 
 <div class='paper-box floating-card'>
+  <div class='paper-box-image'><img src='images/papers/meshmimic.jpg' alt='MeshMimic' /></div>
   <div class='paper-box-text'>
     <h3>MeshMimic: Geometry-Aware Humanoid Motion Learning through 3D Scene Reconstruction</h3>
     <div class="authors">Q Zhang, J Ma, P Liu, S Shi, Z Su, <strong>Z Wang</strong>, J Sun, W Cui, J Yu, G Han, et al.</div>
@@ -174,10 +184,11 @@ If you have any interesting projects related to legged robots, please contact me
 ## Simulation
 
 <div class='paper-box floating-card'>
+  <div class='paper-box-image'><img src='images/papers/discoverse.jpg' alt='DISCOVERSE' /></div>
   <div class='paper-box-text'>
     <h3>DISCOVERSE: Efficient Robot Simulation in Complex High-Fidelity Environments</h3>
     <div class="authors">Y Jia, G Wang, Y Dong, J Wu, Y Zeng, H Lin, <strong>Z Wang</strong>, H Ge, W Gu, K Ding, et al.</div>
-    <div class="venue">IROS 2025</div>
+    <div class="venue">IROS 2025 <span class="badge">Oral</span></div>
     <div class="links">
       <a href="https://air-discoverse.github.io/" class="btn-accent"><i class="fas fa-globe"></i> Project Page</a>
     </div>
@@ -185,6 +196,7 @@ If you have any interesting projects related to legged robots, please contact me
 </div>
 
 <div class='paper-box floating-card'>
+  <div class='paper-box-image'><img src='images/papers/fggs_lidar.png' alt='FGGS-LiDAR' /></div>
   <div class='paper-box-text'>
     <h3>FGGS-LiDAR: Ultra-Fast, GPU-Accelerated Simulation from General 3DGS Models to LiDAR</h3>
     <div class="authors">J Wu, Y Jia, Y Yan, Z Chen, T Tan, <strong>Z Wang</strong>, G Wang</div>
@@ -216,8 +228,84 @@ If you have any interesting projects related to legged robots, please contact me
   </div>
 </div>
 
-# <i class="fas fa-graduation-cap"></i> Educations
-- *2024 - Present*: &nbsp;Postgraduate Student at <span class="primary-gradient-text">The Hong Kong University of Science and Technology (Guangzhou)</span>. Research focus on legged robots, optimal control, and reinforcement learning.
+# <i class="fas fa-graduation-cap"></i> Education
 
-# <i class="fas fa-laptop-code"></i> Experience
-- Contact: <span class="accent-text">wang_zifan@outlook.com</span> / <span class="accent-text">zwang765@connect.hkust-gz.edu.cn</span>
+<div class="highlight-blocks">
+  <div class="highlight-block floating-card">
+    <h3><i class="fas fa-user-graduate"></i> PhD in Artificial Intelligence</h3>
+    <ul>
+      <li><span class="accent-text">HKUST (Guangzhou)</span></li>
+      <li>2024 - 2027 (Expected)</li>
+      <li>Supervisor: <span class="primary-gradient-text">Junwei Liang</span></li>
+    </ul>
+  </div>
+
+  <div class="highlight-block floating-card">
+    <h3><i class="fas fa-robot"></i> MSc in Robotics & Autonomous Systems</h3>
+    <ul>
+      <li><span class="accent-text">HKUST (Guangzhou)</span></li>
+      <li>2022 - 2024, GPA: 3.84</li>
+      <li>Supervisors: <span class="primary-gradient-text">Ming Liu, Jun Ma</span></li>
+    </ul>
+  </div>
+
+  <div class="highlight-block floating-card">
+    <h3><i class="fas fa-cog"></i> BEng in Automation</h3>
+    <ul>
+      <li><span class="accent-text">Southwest Jiaotong University</span></li>
+      <li>2017 - 2021, Score: 85.45</li>
+      <li><span class="primary-gradient-text">School of Information Science and Technology</span></li>
+    </ul>
+  </div>
+</div>
+
+# <i class="fas fa-award"></i> Honors & Awards
+- <span class="accent-text">First Class Scholarship</span> — Southwest Jiaotong University
+- <span class="accent-text">The Enterprise Scholarship</span> — Southwest Jiaotong University
+- <span class="accent-text">Outstanding Students Cadre</span> — Southwest Jiaotong University
+
+# <i class="fas fa-trophy"></i> Competitions
+
+<div class='paper-box floating-card'>
+  <div class='paper-box-text'>
+    <h3>National Second Prize — ABU Robocon (Equestrian Simulation)</h3>
+    <div class="venue">Asia-Pacific Broadcasting Union Robocon, 2020</div>
+    <p>Developed Simulink simulation system and co-simulation with Adams for quadruped robot maneuvers.</p>
+  </div>
+</div>
+
+<div class='paper-box floating-card'>
+  <div class='paper-box-text'>
+    <h3>National Third Prize — RoboMaster (DJI)</h3>
+    <div class="venue">RoboMaster, 2020</div>
+    <p>Developed LQR-based control framework, image processing and LiDAR sensing algorithms, sensor fusion, and hardware circuit design.</p>
+  </div>
+</div>
+
+<div class='paper-box floating-card'>
+  <div class='paper-box-text'>
+    <h3>National Second Prize — ABU Robocon</h3>
+    <div class="venue">Asia-Pacific Broadcasting Union Robocon, 2019</div>
+    <p>Responsible for quadruped robot leg motion control and upper structure ejection/gripping device control.</p>
+  </div>
+</div>
+
+<div class='paper-box floating-card'>
+  <div class='paper-box-text'>
+    <h3>Provincial Second Prize — Engineering Training Competition</h3>
+    <div class="venue">National College Student Engineering Training Competition, 2019</div>
+    <p>Hardware circuit design, sensor data fusion with orthogonal code disk and DT35 laser ranging module.</p>
+  </div>
+</div>
+
+<div class='paper-box floating-card'>
+  <div class='paper-box-text'>
+    <h3>Provincial Third Prize — Electronics Design Contest</h3>
+    <div class="venue">National Undergraduate Electronics Design Contest, 2019</div>
+    <p>Electromagnetic gun hardware circuit design, BP neural network-based control algorithm, and UCOS-III RTOS porting on ARM processor.</p>
+  </div>
+</div>
+
+---
+
+Contact: <span class="accent-text">wang_zifan@outlook.com</span> / <span class="accent-text">zwang765@connect.hkust-gz.edu.cn</span>
