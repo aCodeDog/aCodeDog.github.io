@@ -57,6 +57,7 @@ If you have any interesting projects related to legged robots, please contact me
 </div>
 
 # <i class="fas fa-fire"></i> News
+- *2025*: &nbsp; New preprint: **DiT4DiT** — jointly modeling video dynamics and actions for generalizable robot control.
 - *2025*: &nbsp; One paper accepted by **NeurIPS 2025** on vision-language-action cross-task generalization.
 - *2025*: &nbsp; Two papers accepted by **CoRL 2025** (OmniPerception & GLOVER++).
 - *2025*: &nbsp; Two papers accepted by **IROS 2025** (Diffusion Planner & DISCOVERSE).
@@ -67,6 +68,20 @@ If you have any interesting projects related to legged robots, please contact me
 # <i class="fas fa-file-alt"></i> Publications
 
 ## Manipulation & Imitation Learning
+
+<div class='paper-box floating-card'>
+  <div class='paper-box-image'><img src='images/papers/dit4dit.png' alt='DiT4DiT' /></div>
+  <div class='paper-box-text'>
+    <h3>DiT4DiT: Jointly Modeling Video Dynamics and Actions for Generalizable Robot Control</h3>
+    <div class="authors">T Ma, J Zheng, <strong>Z Wang</strong>, C Jiang, A Cui, J Liang, S Yang</div>
+    <div class="venue">arXiv 2025</div>
+    <div class="links">
+      <a href="https://dit4dit.github.io/" class="btn-accent"><i class="fas fa-globe"></i> Project Page</a>
+      <a href="https://arxiv.org/abs/2603.10448" class="btn-accent"><i class="fas fa-file-pdf"></i> arXiv</a>
+      <a href="https://github.com/Mondo-Robotics/DiT4DiT" class="btn-accent"><i class="fab fa-github"></i> Code</a>
+    </div>
+  </div>
+</div>
 
 <div class='paper-box floating-card'>
   <div class='paper-box-image'><img src='images/papers/vla_cross_task.png' alt='VLA Cross-Task' /></div>
