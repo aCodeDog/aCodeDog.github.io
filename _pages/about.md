@@ -32,7 +32,7 @@ If you have any interesting projects related to legged robots, please contact me
     <h3><i class="fas fa-robot"></i> Robotics Researcher</h3>
     <ul>
       <li>Research focus on <span class="accent-text">Legged Robots</span></li>
-      <li>Publications at <span class="accent-text">IROS</span>, <span class="accent-text">CoRL</span>, <span class="accent-text">CVPR</span></li>
+      <li>Publications at <span class="accent-text">NeurIPS</span>, <span class="accent-text">CoRL</span>, <span class="accent-text">CVPR</span>, <span class="accent-text">IROS</span></li>
       <li>Optimal control & <span class="primary-gradient-text">Reinforcement Learning</span></li>
     </ul>
   </div>
@@ -57,19 +57,72 @@ If you have any interesting projects related to legged robots, please contact me
 </div>
 
 # <i class="fas fa-fire"></i> News
-- *2025*: &nbsp; One paper accepted by **CoRL 2025** on omnidirectional collision avoidance for legged locomotion.
-- *2025*: &nbsp; One paper accepted by **IROS 2025** on preference aligned diffusion planner for quadrupedal locomotion.
-- *2025*: &nbsp; One paper accepted by **IROS 2025** on efficient robot simulation (DISCOVERSE).
+- *2025*: &nbsp; One paper accepted by **NeurIPS 2025** on vision-language-action cross-task generalization.
+- *2025*: &nbsp; Two papers accepted by **CoRL 2025** (OmniPerception & GLOVER++).
+- *2025*: &nbsp; Two papers accepted by **IROS 2025** (Diffusion Planner & DISCOVERSE).
 - *2025*: &nbsp; One paper accepted by **CVPR 2025** on mitigating human-robot domain discrepancy.
+- *2024*: &nbsp; One paper accepted by **CoRL 2024** on contrastive imitation learning.
+- *2024*: &nbsp; One paper accepted by **IROS 2024** on loco-manipulation for wheel-legged robots.
 
 # <i class="fas fa-file-alt"></i> Publications
+
+## Manipulation & Imitation Learning
+
+<div class='paper-box floating-card'>
+  <div class='paper-box-text'>
+    <h3>Exploring the Limits of Vision-Language-Action Manipulations in Cross-Task Generalization</h3>
+    <div class="authors">J Zhou, K Ye, J Liu, T Ma, <strong>Z Wang</strong>, R Qiu, KY Lin, Z Zhao, J Liang</div>
+    <div class="venue">NeurIPS 2025</div>
+  </div>
+</div>
+
+<div class='paper-box floating-card'>
+  <div class='paper-box-text'>
+    <h3>GLOVER++: Unleashing the Potential of Affordance Learning from Human Behaviors for Robotic Manipulation</h3>
+    <div class="authors">T Ma, J Zheng, <strong>Z Wang</strong>, Z Gao, J Zhou, J Liang</div>
+    <div class="venue">CoRL 2025</div>
+  </div>
+</div>
+
+<div class='paper-box floating-card'>
+  <div class='paper-box-text'>
+    <h3>Contrastive Imitation Learning for Language-guided Multi-Task Robotic Manipulation</h3>
+    <div class="authors">T Ma, J Zhou, <strong>Z Wang</strong>, R Qiu, J Liang</div>
+    <div class="venue">CoRL 2024</div>
+    <div class="links">
+      <a href="https://teleema.github.io/projects/Sigma_Agent/" class="btn-accent"><i class="fas fa-globe"></i> Project Page</a>
+    </div>
+  </div>
+</div>
+
+<div class='paper-box floating-card'>
+  <div class='paper-box-text'>
+    <h3>Mitigating the Human-Robot Domain Discrepancy in Visual Pre-training for Robotic Manipulation</h3>
+    <div class="authors">J Zhou, T Ma, KY Lin, <strong>Z Wang</strong>, R Qiu, J Liang</div>
+    <div class="venue">CVPR 2025</div>
+    <div class="links">
+      <a href="https://jiaming-zhou.github.io/projects/HumanRobotAlign/" class="btn-accent"><i class="fas fa-globe"></i> Project Page</a>
+    </div>
+  </div>
+</div>
+
+<div class='paper-box floating-card'>
+  <div class='paper-box-text'>
+    <h3>GLOVER: Generalizable Open-Vocabulary Affordance Reasoning for Task-Oriented Grasping</h3>
+    <div class="authors">T Ma, <strong>Z Wang</strong>, J Zhou, M Wang, J Liang</div>
+    <div class="venue">CoRL 2024 GenPriors Workshop</div>
+    <div class="links">
+      <a href="https://teleema.github.io/projects/GLOVER/" class="btn-accent"><i class="fas fa-globe"></i> Project Page</a>
+    </div>
+  </div>
+</div>
 
 ## Loco-Manipulation
 
 <div class='paper-box floating-card'>
   <div class='paper-box-text'>
-    <h3>Legged Robots Manipulation: A Loco-Manipulation Framework for (Wheel-)Legged Robots</h3>
-    <div class="authors"><strong>Zifan Wang</strong>, et al.</div>
+    <h3>Arm-Constrained Curriculum Learning for Loco-Manipulation of a Wheel-Legged Robot</h3>
+    <div class="authors"><strong>Z Wang</strong>, Y Jia, L Shi, H Wang, H Zhao, X Li, J Zhou, J Ma, G Zhou</div>
     <div class="venue">IROS 2024</div>
     <div class="links">
       <a href="https://github.com/aCodeDog/legged-robots-manipulation" class="btn-accent"><i class="fab fa-github"></i> Code</a>
@@ -77,10 +130,74 @@ If you have any interesting projects related to legged robots, please contact me
   </div>
 </div>
 
+## Locomotion
+
+<div class='paper-box floating-card'>
+  <div class='paper-box-text'>
+    <h3>Omni-Perception: Omnidirectional Collision Avoidance for Legged Locomotion in Dynamic Environments</h3>
+    <div class="authors"><strong>Z Wang</strong>, T Ma, Y Jia, X Yang, J Zhou, W Ouyang, Q Zhang, J Liang</div>
+    <div class="venue">CoRL 2025</div>
+    <div class="links">
+      <a href="https://acodedog.github.io/OmniPerceptionPages/" class="btn-accent"><i class="fas fa-globe"></i> Project Page</a>
+      <a href="https://github.com/aCodeDog/OmniPerception" class="btn-accent"><i class="fab fa-github"></i> Code</a>
+    </div>
+  </div>
+</div>
+
+<div class='paper-box floating-card'>
+  <div class='paper-box-text'>
+    <h3>End-to-End Humanoid Robot Safe and Comfortable Locomotion Policy</h3>
+    <div class="authors"><strong>Z Wang</strong>, X Yang, J Zhao, J Zhou, T Ma, Z Gao, A Ajoudani, J Liang</div>
+    <div class="venue">arXiv 2025</div>
+  </div>
+</div>
+
+<div class='paper-box floating-card'>
+  <div class='paper-box-text'>
+    <h3>Preference Aligned Diffusion Planner for Quadrupedal Locomotion Control</h3>
+    <div class="authors">X Yuan, Z Shang, <strong>Z Wang</strong>, C Wang, Z Shan, M Zhu, C Bai, X Li, W Wan, et al.</div>
+    <div class="venue">IROS 2025</div>
+    <div class="links">
+      <a href="https://shangjaven.github.io/preference-aligned-diffusion-legged/" class="btn-accent"><i class="fas fa-globe"></i> Project Page</a>
+    </div>
+  </div>
+</div>
+
+<div class='paper-box floating-card'>
+  <div class='paper-box-text'>
+    <h3>MeshMimic: Geometry-Aware Humanoid Motion Learning through 3D Scene Reconstruction</h3>
+    <div class="authors">Q Zhang, J Ma, P Liu, S Shi, Z Su, <strong>Z Wang</strong>, J Sun, W Cui, J Yu, G Han, et al.</div>
+    <div class="venue">arXiv 2026</div>
+  </div>
+</div>
+
+## Simulation
+
+<div class='paper-box floating-card'>
+  <div class='paper-box-text'>
+    <h3>DISCOVERSE: Efficient Robot Simulation in Complex High-Fidelity Environments</h3>
+    <div class="authors">Y Jia, G Wang, Y Dong, J Wu, Y Zeng, H Lin, <strong>Z Wang</strong>, H Ge, W Gu, K Ding, et al.</div>
+    <div class="venue">IROS 2025</div>
+    <div class="links">
+      <a href="https://air-discoverse.github.io/" class="btn-accent"><i class="fas fa-globe"></i> Project Page</a>
+    </div>
+  </div>
+</div>
+
+<div class='paper-box floating-card'>
+  <div class='paper-box-text'>
+    <h3>FGGS-LiDAR: Ultra-Fast, GPU-Accelerated Simulation from General 3DGS Models to LiDAR</h3>
+    <div class="authors">J Wu, Y Jia, Y Yan, Z Chen, T Tan, <strong>Z Wang</strong>, G Wang</div>
+    <div class="venue">arXiv</div>
+  </div>
+</div>
+
+## Open Source Projects
+
 <div class='paper-box floating-card'>
   <div class='paper-box-text'>
     <h3>Genesis Frameworks for Legged Robots</h3>
-    <div class="authors"><strong>Zifan Wang</strong>, et al.</div>
+    <div class="authors"><strong>Zifan Wang</strong></div>
     <div class="venue">Open Source</div>
     <div class="links">
       <a href="https://github.com/aCodeDog/genesis_legged_gym" class="btn-accent"><i class="fab fa-github"></i> Code</a>
@@ -95,85 +212,6 @@ If you have any interesting projects related to legged robots, please contact me
     <div class="venue">Open Source</div>
     <div class="links">
       <a href="https://github.com/aCodeDog/awesome-loco-manipulation" class="btn-accent"><i class="fab fa-github"></i> Code</a>
-    </div>
-  </div>
-</div>
-
-## Locomotion
-
-<div class='paper-box floating-card'>
-  <div class='paper-box-text'>
-    <h3>Omni-Perception: Omnidirectional Collision Avoidance for Legged Locomotion in Dynamic Environments</h3>
-    <div class="authors"><strong>Zifan Wang</strong>, et al.</div>
-    <div class="venue">CoRL 2025</div>
-    <div class="links">
-      <a href="https://acodedog.github.io/OmniPerceptionPages/" class="btn-accent"><i class="fas fa-globe"></i> Project Page</a>
-      <a href="https://github.com/aCodeDog/OmniPerception" class="btn-accent"><i class="fab fa-github"></i> Code</a>
-    </div>
-  </div>
-</div>
-
-<div class='paper-box floating-card'>
-  <div class='paper-box-text'>
-    <h3>Preference Aligned Diffusion Planner for Quadrupedal Locomotion Control</h3>
-    <div class="authors">Shangja Ven, <strong>Zifan Wang</strong>, et al.</div>
-    <div class="venue">IROS 2025</div>
-    <div class="links">
-      <a href="https://shangjaven.github.io/preference-aligned-diffusion-legged/" class="btn-accent"><i class="fas fa-globe"></i> Project Page</a>
-    </div>
-  </div>
-</div>
-
-<div class='paper-box floating-card'>
-  <div class='paper-box-text'>
-    <h3>MIP-MPC Framework for Wheeled-Legged Robot Working on Tough Terrain</h3>
-    <div class="authors"><strong>Zifan Wang</strong>, et al.</div>
-    <div class="venue">ARTS 2023 Poster</div>
-  </div>
-</div>
-
-## Imitation Learning
-
-<div class='paper-box floating-card'>
-  <div class='paper-box-text'>
-    <h3>GLOVER: Generalizable Open-Vocabulary Affordance Reasoning for Task-Oriented Grasping</h3>
-    <div class="authors">Teli Ma, <strong>Zifan Wang</strong>, et al.</div>
-    <div class="venue">Under Review</div>
-    <div class="links">
-      <a href="https://teleema.github.io/projects/GLOVER/" class="btn-accent"><i class="fas fa-globe"></i> Project Page</a>
-    </div>
-  </div>
-</div>
-
-<div class='paper-box floating-card'>
-  <div class='paper-box-text'>
-    <h3>DISCOVERSE: Efficient Robot Simulation in Complex High-Fidelity Environments</h3>
-    <div class="authors">AIR Lab, <strong>Zifan Wang</strong>, et al.</div>
-    <div class="venue">IROS 2025</div>
-    <div class="links">
-      <a href="https://air-discoverse.github.io/" class="btn-accent"><i class="fas fa-globe"></i> Project Page</a>
-    </div>
-  </div>
-</div>
-
-<div class='paper-box floating-card'>
-  <div class='paper-box-text'>
-    <h3>Contrastive Imitation Learning for Language-guided Multi-Task Robotic Manipulation</h3>
-    <div class="authors">Teli Ma, <strong>Zifan Wang</strong>, et al.</div>
-    <div class="venue">CoRL 2024</div>
-    <div class="links">
-      <a href="https://teleema.github.io/projects/Sigma_Agent/" class="btn-accent"><i class="fas fa-globe"></i> Project Page</a>
-    </div>
-  </div>
-</div>
-
-<div class='paper-box floating-card'>
-  <div class='paper-box-text'>
-    <h3>Mitigating the Human-Robot Domain Discrepancy in Visual Pre-training for Robotic Manipulation</h3>
-    <div class="authors">Jiaming Zhou, <strong>Zifan Wang</strong>, et al.</div>
-    <div class="venue">CVPR 2025</div>
-    <div class="links">
-      <a href="https://jiaming-zhou.github.io/projects/HumanRobotAlign/" class="btn-accent"><i class="fas fa-globe"></i> Project Page</a>
     </div>
   </div>
 </div>
