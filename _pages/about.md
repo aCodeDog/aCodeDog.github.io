@@ -57,10 +57,10 @@ If you have any interesting projects related to legged robots, please contact me
 </div>
 
 # <i class="fas fa-fire"></i> News
-- *2026*: &nbsp; One paper accepted by **RSS 2026**: **GS-Playground**, a high-throughput photorealistic simulator for vision-informed robot learning.
-- *2026*: &nbsp; New preprint: **UniLab** — a heterogeneous architecture for robot RL beyond GPU-dominant paradigms.
-- *2026*: &nbsp; New project: **Perceptive Behavior Foundation Model** — adapting human motion priors to robot-centric terrain (CoRL 2026, under review).
-- *2025*: &nbsp; New preprint: **DiT4DiT** — jointly modeling video dynamics and actions for generalizable robot control.
+- *2026*: &nbsp; New project: [**Perceptive Behavior Foundation Model**](https://acodedog.github.io/perceptive-bfm-page/) — adapting human motion priors to robot-centric terrain (CoRL 2026, under review).
+- *2026*: &nbsp; One paper accepted by **RSS 2026**: [**GS-Playground**](https://gsplayground.github.io/), a high-throughput photorealistic simulator for vision-informed robot learning.
+- *2026*: &nbsp; New preprint: [**UniLab**](https://unilabsim.github.io/) — a heterogeneous architecture for robot RL beyond GPU-dominant paradigms.
+- *2025*: &nbsp; New preprint: [**DiT4DiT**](https://dit4dit.github.io/) — jointly modeling video dynamics and actions for generalizable robot control.
 - *2025*: &nbsp; One paper accepted by **NeurIPS 2025** on vision-language-action cross-task generalization.
 - *2025*: &nbsp; Two papers accepted by **CoRL 2025** (OmniPerception & GLOVER++).
 - *2025*: &nbsp; Two papers accepted by **IROS 2025** (Diffusion Planner & DISCOVERSE).
@@ -69,6 +69,77 @@ If you have any interesting projects related to legged robots, please contact me
 - *2024*: &nbsp; One paper accepted by **IROS 2024** on loco-manipulation for wheel-legged robots.
 
 # <i class="fas fa-file-alt"></i> Publications
+
+## Locomotion
+
+<div class='paper-box floating-card'>
+  <div class='paper-box-image'><img src='images/papers/perceptive_bfm.jpg' alt='Perceptive Behavior Foundation Model' /></div>
+  <div class='paper-box-text'>
+    <h3>Perceptive Behavior Foundation Model: Adapting Human Motion Priors to Robot-Centric Terrain</h3>
+    <div class="authors"><strong>Z Wang</strong>, et al.</div>
+    <div class="venue">CoRL 2026 <span class="badge">Under Review</span></div>
+    <div class="links">
+      <a href="https://acodedog.github.io/perceptive-bfm-page/" class="btn-accent"><i class="fas fa-globe"></i> Project Page</a>
+    </div>
+  </div>
+</div>
+
+<div class='paper-box floating-card'>
+  <div class='paper-box-image'><img src='images/papers/omni_perception.png' alt='Omni-Perception' /></div>
+  <div class='paper-box-text'>
+    <h3>Omni-Perception: Omnidirectional Collision Avoidance for Legged Locomotion in Dynamic Environments</h3>
+    <div class="authors"><strong>Z Wang</strong>, T Ma, Y Jia, X Yang, J Zhou, W Ouyang, Q Zhang, J Liang</div>
+    <div class="venue">CoRL 2025 <span class="badge">Oral</span></div>
+    <div class="links">
+      <a href="https://acodedog.github.io/OmniPerceptionPages/" class="btn-accent"><i class="fas fa-globe"></i> Project Page</a>
+      <a href="https://github.com/aCodeDog/OmniPerception" class="btn-accent"><i class="fab fa-github"></i> Code</a>
+    </div>
+  </div>
+</div>
+
+<div class='paper-box floating-card'>
+  <div class='paper-box-image'><img src='images/papers/humanoid_locomotion.jpg' alt='Humanoid Locomotion' /></div>
+  <div class='paper-box-text'>
+    <h3>End-to-End Humanoid Robot Safe and Comfortable Locomotion Policy</h3>
+    <div class="authors"><strong>Z Wang</strong>, X Yang, J Zhao, J Zhou, T Ma, Z Gao, A Ajoudani, J Liang</div>
+    <div class="venue">arXiv 2025</div>
+  </div>
+</div>
+
+<div class='paper-box floating-card'>
+  <div class='paper-box-image'><img src='images/papers/diffusion_planner.jpg' alt='Diffusion Planner' /></div>
+  <div class='paper-box-text'>
+    <h3>Preference Aligned Diffusion Planner for Quadrupedal Locomotion Control</h3>
+    <div class="authors">X Yuan, Z Shang, <strong>Z Wang</strong>, C Wang, Z Shan, M Zhu, C Bai, X Li, W Wan, et al.</div>
+    <div class="venue">IROS 2025</div>
+    <div class="links">
+      <a href="https://shangjaven.github.io/preference-aligned-diffusion-legged/" class="btn-accent"><i class="fas fa-globe"></i> Project Page</a>
+    </div>
+  </div>
+</div>
+
+<div class='paper-box floating-card'>
+  <div class='paper-box-image'><img src='images/papers/meshmimic.jpg' alt='MeshMimic' /></div>
+  <div class='paper-box-text'>
+    <h3>MeshMimic: Geometry-Aware Humanoid Motion Learning through 3D Scene Reconstruction</h3>
+    <div class="authors">Q Zhang, J Ma, P Liu, S Shi, Z Su, <strong>Z Wang</strong>, J Sun, W Cui, J Yu, G Han, et al.</div>
+    <div class="venue">arXiv 2026</div>
+  </div>
+</div>
+
+## Loco-Manipulation
+
+<div class='paper-box floating-card'>
+  <div class='paper-box-image'><img src='images/papers/loco_manipulation.png' alt='Loco-Manipulation' /></div>
+  <div class='paper-box-text'>
+    <h3>Arm-Constrained Curriculum Learning for Loco-Manipulation of a Wheel-Legged Robot</h3>
+    <div class="authors"><strong>Z Wang</strong>, Y Jia, L Shi, H Wang, H Zhao, X Li, J Zhou, J Ma, G Zhou</div>
+    <div class="venue">IROS 2024 <span class="badge">Oral</span></div>
+    <div class="links">
+      <a href="https://github.com/aCodeDog/legged-robots-manipulation" class="btn-accent"><i class="fab fa-github"></i> Code</a>
+    </div>
+  </div>
+</div>
 
 ## Manipulation & Imitation Learning
 
@@ -137,77 +208,6 @@ If you have any interesting projects related to legged robots, please contact me
     <div class="links">
       <a href="https://teleema.github.io/projects/GLOVER/" class="btn-accent"><i class="fas fa-globe"></i> Project Page</a>
     </div>
-  </div>
-</div>
-
-## Loco-Manipulation
-
-<div class='paper-box floating-card'>
-  <div class='paper-box-image'><img src='images/papers/loco_manipulation.png' alt='Loco-Manipulation' /></div>
-  <div class='paper-box-text'>
-    <h3>Arm-Constrained Curriculum Learning for Loco-Manipulation of a Wheel-Legged Robot</h3>
-    <div class="authors"><strong>Z Wang</strong>, Y Jia, L Shi, H Wang, H Zhao, X Li, J Zhou, J Ma, G Zhou</div>
-    <div class="venue">IROS 2024 <span class="badge">Oral</span></div>
-    <div class="links">
-      <a href="https://github.com/aCodeDog/legged-robots-manipulation" class="btn-accent"><i class="fab fa-github"></i> Code</a>
-    </div>
-  </div>
-</div>
-
-## Locomotion
-
-<div class='paper-box floating-card'>
-  <div class='paper-box-image'><img src='images/papers/perceptive_bfm.jpg' alt='Perceptive Behavior Foundation Model' /></div>
-  <div class='paper-box-text'>
-    <h3>Perceptive Behavior Foundation Model: Adapting Human Motion Priors to Robot-Centric Terrain</h3>
-    <div class="authors"><strong>Z Wang</strong>, et al.</div>
-    <div class="venue">CoRL 2026 (Under Review)</div>
-    <div class="links">
-      <a href="https://acodedog.github.io/perceptive-bfm-page/" class="btn-accent"><i class="fas fa-globe"></i> Project Page</a>
-    </div>
-  </div>
-</div>
-
-<div class='paper-box floating-card'>
-  <div class='paper-box-image'><img src='images/papers/omni_perception.png' alt='Omni-Perception' /></div>
-  <div class='paper-box-text'>
-    <h3>Omni-Perception: Omnidirectional Collision Avoidance for Legged Locomotion in Dynamic Environments</h3>
-    <div class="authors"><strong>Z Wang</strong>, T Ma, Y Jia, X Yang, J Zhou, W Ouyang, Q Zhang, J Liang</div>
-    <div class="venue">CoRL 2025 <span class="badge">Oral</span></div>
-    <div class="links">
-      <a href="https://acodedog.github.io/OmniPerceptionPages/" class="btn-accent"><i class="fas fa-globe"></i> Project Page</a>
-      <a href="https://github.com/aCodeDog/OmniPerception" class="btn-accent"><i class="fab fa-github"></i> Code</a>
-    </div>
-  </div>
-</div>
-
-<div class='paper-box floating-card'>
-  <div class='paper-box-image'><img src='images/papers/humanoid_locomotion.jpg' alt='Humanoid Locomotion' /></div>
-  <div class='paper-box-text'>
-    <h3>End-to-End Humanoid Robot Safe and Comfortable Locomotion Policy</h3>
-    <div class="authors"><strong>Z Wang</strong>, X Yang, J Zhao, J Zhou, T Ma, Z Gao, A Ajoudani, J Liang</div>
-    <div class="venue">arXiv 2025</div>
-  </div>
-</div>
-
-<div class='paper-box floating-card'>
-  <div class='paper-box-image'><img src='images/papers/diffusion_planner.jpg' alt='Diffusion Planner' /></div>
-  <div class='paper-box-text'>
-    <h3>Preference Aligned Diffusion Planner for Quadrupedal Locomotion Control</h3>
-    <div class="authors">X Yuan, Z Shang, <strong>Z Wang</strong>, C Wang, Z Shan, M Zhu, C Bai, X Li, W Wan, et al.</div>
-    <div class="venue">IROS 2025</div>
-    <div class="links">
-      <a href="https://shangjaven.github.io/preference-aligned-diffusion-legged/" class="btn-accent"><i class="fas fa-globe"></i> Project Page</a>
-    </div>
-  </div>
-</div>
-
-<div class='paper-box floating-card'>
-  <div class='paper-box-image'><img src='images/papers/meshmimic.jpg' alt='MeshMimic' /></div>
-  <div class='paper-box-text'>
-    <h3>MeshMimic: Geometry-Aware Humanoid Motion Learning through 3D Scene Reconstruction</h3>
-    <div class="authors">Q Zhang, J Ma, P Liu, S Shi, Z Su, <strong>Z Wang</strong>, J Sun, W Cui, J Yu, G Han, et al.</div>
-    <div class="venue">arXiv 2026</div>
   </div>
 </div>
 
