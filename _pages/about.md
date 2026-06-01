@@ -27,6 +27,10 @@ My primary research focus is on <span class="primary-gradient-text">legged robot
 
 If you have any interesting projects related to legged robots, please contact me! I am very eager to collaborate on creating intelligent robots.
 
+<div class="quote-accent">
+<i class="fas fa-briefcase"></i> <strong>I am currently on the job market.</strong> I am actively seeking opportunities related to <span class="primary-gradient-text">(visual) behavior foundation models</span> and <span class="primary-gradient-text">world models for humanoids</span>. If you have a suitable position or collaboration in mind, I would love to hear from you — please feel free to reach out!
+</div>
+
 <div class="highlight-blocks">
   <div class="highlight-block floating-card">
     <h3><i class="fas fa-robot"></i> Robotics Researcher</h3>
@@ -366,4 +370,4 @@ If you have any interesting projects related to legged robots, please contact me
 
 ---
 
-Contact: <span class="accent-text">wang_zifan@outlook.com</span> / <span class="accent-text">zwang765@connect.hkust-gz.edu.cn</span>
+Contact: <span class="accent-text">wang_zifan@outlook.com</span> / <span class="accent-text">zwang765@connect.hkust-gz.edu.cn</span> / <span class="accent-text">+86 135 1839 3890</span>
