@@ -270,9 +270,9 @@ If you have any interesting projects related to legged robots, please contact me
 
 <div class='paper-box floating-card'>
   <div class='paper-box-text'>
-    <h3>Genesis Frameworks for Legged Robots</h3>
+    <h3>Genesis Legged Gym — Legged Robots Framework for Genesis</h3>
     <div class="authors"><strong>Zifan Wang</strong></div>
-    <div class="venue">Open Source</div>
+    <div class="venue">Open Source &nbsp; <a href="https://github.com/aCodeDog/genesis_legged_gym/stargazers"><img src="https://img.shields.io/github/stars/aCodeDog/genesis_legged_gym?style=social" alt="GitHub stars" /></a></div>
     <div class="links">
       <a href="https://github.com/aCodeDog/genesis_legged_gym" class="btn-accent"><i class="fab fa-github"></i> Code</a>
     </div>
@@ -283,7 +283,7 @@ If you have any interesting projects related to legged robots, please contact me
   <div class='paper-box-text'>
     <h3>Awesome Loco-Manipulation: A Curated List</h3>
     <div class="authors"><strong>Zifan Wang</strong></div>
-    <div class="venue">Open Source</div>
+    <div class="venue">Open Source &nbsp; <a href="https://github.com/aCodeDog/awesome-loco-manipulation/stargazers"><img src="https://img.shields.io/github/stars/aCodeDog/awesome-loco-manipulation?style=social" alt="GitHub stars" /></a></div>
     <div class="links">
       <a href="https://github.com/aCodeDog/awesome-loco-manipulation" class="btn-accent"><i class="fab fa-github"></i> Code</a>
     </div>
