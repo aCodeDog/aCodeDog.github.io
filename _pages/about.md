@@ -57,16 +57,16 @@ If you have any interesting projects related to legged robots, please contact me
 </div>
 
 # <i class="fas fa-fire"></i> News
-- *2026*: &nbsp; New project: [**Perceptive Behavior Foundation Model**](https://acodedog.github.io/perceptive-bfm-page/) — adapting human motion priors to robot-centric terrain (CoRL 2026, under review).
+- *2026*: &nbsp; New project: [**Perceptive Behavior Foundation Model**](https://acodedog.github.io/perceptive-bfm-page/) — adapting human motion priors to robot-centric terrain (under review).
 - *2026*: &nbsp; One paper accepted by **RSS 2026**: [**GS-Playground**](https://gsplayground.github.io/), a high-throughput photorealistic simulator for vision-informed robot learning.
 - *2026*: &nbsp; New preprint: [**UniLab**](https://unilabsim.github.io/) — a heterogeneous architecture for robot RL beyond GPU-dominant paradigms.
 - *2025*: &nbsp; New preprint: [**DiT4DiT**](https://dit4dit.github.io/) — jointly modeling video dynamics and actions for generalizable robot control.
 - *2025*: &nbsp; One paper accepted by **NeurIPS 2025** on vision-language-action cross-task generalization.
-- *2025*: &nbsp; Two papers accepted by **CoRL 2025** (OmniPerception & GLOVER++).
-- *2025*: &nbsp; Two papers accepted by **IROS 2025** (Diffusion Planner & DISCOVERSE).
-- *2025*: &nbsp; One paper accepted by **CVPR 2025** on mitigating human-robot domain discrepancy.
-- *2024*: &nbsp; One paper accepted by **CoRL 2024** on contrastive imitation learning.
-- *2024*: &nbsp; One paper accepted by **IROS 2024** on loco-manipulation for wheel-legged robots.
+- *2025*: &nbsp; Two papers accepted by **CoRL 2025** ([OmniPerception](https://acodedog.github.io/OmniPerceptionPages/) & GLOVER++).
+- *2025*: &nbsp; Two papers accepted by **IROS 2025** ([Diffusion Planner](https://shangjaven.github.io/preference-aligned-diffusion-legged/) & [DISCOVERSE](https://air-discoverse.github.io/)).
+- *2025*: &nbsp; One paper accepted by **CVPR 2025** on [mitigating human-robot domain discrepancy](https://jiaming-zhou.github.io/projects/HumanRobotAlign/).
+- *2024*: &nbsp; One paper accepted by **CoRL 2024** on [contrastive imitation learning](https://teleema.github.io/projects/Sigma_Agent/).
+- *2024*: &nbsp; One paper accepted by **IROS 2024** on [loco-manipulation for wheel-legged robots](https://github.com/aCodeDog/legged-robots-manipulation).
 
 # <i class="fas fa-file-alt"></i> Publications
 
