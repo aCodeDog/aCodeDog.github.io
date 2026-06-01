@@ -81,7 +81,7 @@ If you have any interesting projects related to legged robots, please contact me
   <div class='paper-box-text'>
     <h3>Perceptive Behavior Foundation Model: Adapting Human Motion Priors to Robot-Centric Terrain</h3>
     <div class="authors"><strong>Z Wang</strong>, et al.</div>
-    <div class="venue">CoRL 2026 <span class="badge">Under Review</span></div>
+    <div class="venue"><span class="badge">Under Review</span></div>
     <div class="links">
       <a href="https://acodedog.github.io/perceptive-bfm-page/" class="btn-accent"><i class="fas fa-globe"></i> Project Page</a>
     </div>
