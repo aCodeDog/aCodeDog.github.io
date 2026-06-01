@@ -32,7 +32,7 @@ If you have any interesting projects related to legged robots, please contact me
     <h3><i class="fas fa-robot"></i> Robotics Researcher</h3>
     <ul>
       <li>Research focus on <span class="accent-text">Legged Robots</span></li>
-      <li>Publications at <span class="accent-text">NeurIPS</span>, <span class="accent-text">CoRL</span>, <span class="accent-text">CVPR</span>, <span class="accent-text">IROS</span></li>
+      <li>Publications at <span class="accent-text">RSS</span>, <span class="accent-text">NeurIPS</span>, <span class="accent-text">CoRL</span>, <span class="accent-text">CVPR</span>, <span class="accent-text">IROS</span></li>
       <li>Optimal control & <span class="primary-gradient-text">Reinforcement Learning</span></li>
     </ul>
   </div>
@@ -57,6 +57,9 @@ If you have any interesting projects related to legged robots, please contact me
 </div>
 
 # <i class="fas fa-fire"></i> News
+- *2026*: &nbsp; One paper accepted by **RSS 2026**: **GS-Playground**, a high-throughput photorealistic simulator for vision-informed robot learning.
+- *2026*: &nbsp; New preprint: **UniLab** — a heterogeneous architecture for robot RL beyond GPU-dominant paradigms.
+- *2026*: &nbsp; New project: **Perceptive Behavior Foundation Model** — adapting human motion priors to robot-centric terrain (CoRL 2026, under review).
 - *2025*: &nbsp; New preprint: **DiT4DiT** — jointly modeling video dynamics and actions for generalizable robot control.
 - *2025*: &nbsp; One paper accepted by **NeurIPS 2025** on vision-language-action cross-task generalization.
 - *2025*: &nbsp; Two papers accepted by **CoRL 2025** (OmniPerception & GLOVER++).
@@ -154,6 +157,18 @@ If you have any interesting projects related to legged robots, please contact me
 ## Locomotion
 
 <div class='paper-box floating-card'>
+  <div class='paper-box-image'><img src='images/papers/perceptive_bfm.jpg' alt='Perceptive Behavior Foundation Model' /></div>
+  <div class='paper-box-text'>
+    <h3>Perceptive Behavior Foundation Model: Adapting Human Motion Priors to Robot-Centric Terrain</h3>
+    <div class="authors"><strong>Z Wang</strong>, et al.</div>
+    <div class="venue">CoRL 2026 (Under Review)</div>
+    <div class="links">
+      <a href="https://acodedog.github.io/perceptive-bfm-page/" class="btn-accent"><i class="fas fa-globe"></i> Project Page</a>
+    </div>
+  </div>
+</div>
+
+<div class='paper-box floating-card'>
   <div class='paper-box-image'><img src='images/papers/omni_perception.png' alt='Omni-Perception' /></div>
   <div class='paper-box-text'>
     <h3>Omni-Perception: Omnidirectional Collision Avoidance for Legged Locomotion in Dynamic Environments</h3>
@@ -197,6 +212,34 @@ If you have any interesting projects related to legged robots, please contact me
 </div>
 
 ## Simulation
+
+<div class='paper-box floating-card'>
+  <div class='paper-box-image'><img src='images/papers/gs_playground.png' alt='GS-Playground' /></div>
+  <div class='paper-box-text'>
+    <h3>GS-Playground: A High-Throughput Photorealistic Simulator for Vision-Informed Robot Learning</h3>
+    <div class="authors">Y Jia, H Zhang, Z Zhang, J Wu, M Yu, <strong>Z Wang</strong>, et al.</div>
+    <div class="venue">RSS 2026</div>
+    <div class="links">
+      <a href="https://gsplayground.github.io/" class="btn-accent"><i class="fas fa-globe"></i> Project Page</a>
+      <a href="https://arxiv.org/abs/2604.25459" class="btn-accent"><i class="fas fa-file-pdf"></i> arXiv</a>
+      <a href="https://github.com/discoverse-dev/gs_playground" class="btn-accent"><i class="fab fa-github"></i> Code</a>
+    </div>
+  </div>
+</div>
+
+<div class='paper-box floating-card'>
+  <div class='paper-box-image'><img src='images/papers/unilab.png' alt='UniLab' /></div>
+  <div class='paper-box-text'>
+    <h3>UniLab: A Heterogeneous Architecture for Robot RL Beyond GPU-Dominant Paradigms</h3>
+    <div class="authors">Y Jia, Z Cao, M Yu, H Zhang, S Chen, D Jiang, ..., <strong>Z Wang</strong>, et al.</div>
+    <div class="venue">arXiv 2026</div>
+    <div class="links">
+      <a href="https://unilabsim.github.io/" class="btn-accent"><i class="fas fa-globe"></i> Project Page</a>
+      <a href="https://arxiv.org/abs/2605.30313" class="btn-accent"><i class="fas fa-file-pdf"></i> arXiv</a>
+      <a href="https://github.com/unilabsim/UniLab" class="btn-accent"><i class="fab fa-github"></i> Code</a>
+    </div>
+  </div>
+</div>
 
 <div class='paper-box floating-card'>
   <div class='paper-box-image'><img src='images/papers/discoverse.jpg' alt='DISCOVERSE' /></div>
