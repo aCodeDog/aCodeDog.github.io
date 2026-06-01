@@ -49,7 +49,7 @@ If you have any interesting projects related to legged robots, please contact me
   <div class="highlight-block floating-card">
     <h3><i class="fas fa-users"></i> Academic Service</h3>
     <ul>
-      <li>Reviewer for <span class="accent-text">RAL, IROS</span></li>
+      <li>Reviewer for <span class="accent-text">T-RO, RAL, IROS</span></li>
       <li>Reviewer for <span class="accent-text">CoRL, ICCV</span></li>
       <li>Reviewer for <span class="primary-gradient-text">Humanoids</span></li>
     </ul>
