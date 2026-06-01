@@ -232,7 +232,7 @@ If you have any interesting projects related to legged robots, please contact me
 </div>
 
 <div class='paper-box floating-card'>
-  <div class='paper-box-image'><img src='images/papers/unilab.png' alt='UniLab' /></div>
+  <div class='paper-box-image'><img src='images/papers/unilab_teaser.png' alt='UniLab' /></div>
   <div class='paper-box-text'>
     <h3>UniLab: A Heterogeneous Architecture for Robot RL Beyond GPU-Dominant Paradigms</h3>
     <div class="authors">Y Jia, Z Cao, M Yu, H Zhang, S Chen, D Jiang, ..., <strong>Z Wang</strong>, et al.</div>
