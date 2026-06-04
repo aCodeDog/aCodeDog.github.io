@@ -61,12 +61,12 @@ If you have any interesting projects related to legged robots, please contact me
 </div>
 
 # <i class="fas fa-fire"></i> News
-- *2026*: &nbsp; New project: [**Perceptive Behavior Foundation Model**](https://acodedog.github.io/perceptive-bfm-page/) — adapting human motion priors to robot-centric terrain (under review).
+- *2026*: &nbsp; New project: [**Perceptive Behavior Foundation Model**](https://acodedog.github.io/perceptive-bfm/) — adapting human motion priors to robot-centric terrain (under review).
 - *2026*: &nbsp; One paper accepted by **RSS 2026**: [**GS-Playground**](https://gsplayground.github.io/), a high-throughput photorealistic simulator for vision-informed robot learning.
 - *2026*: &nbsp; New preprint: [**UniLab**](https://unilabsim.github.io/) — a heterogeneous architecture for robot RL beyond GPU-dominant paradigms.
-- *2025*: &nbsp; New preprint: [**DiT4DiT**](https://dit4dit.github.io/) — jointly modeling video dynamics and actions for generalizable robot control.
+- *2026*: &nbsp; New preprint: [**DiT4DiT**](https://dit4dit.github.io/) — jointly modeling video dynamics and actions for generalizable robot control.
 - *2025*: &nbsp; One paper accepted by **NeurIPS 2025** on vision-language-action cross-task generalization.
-- *2025*: &nbsp; Two papers accepted by **CoRL 2025** ([OmniPerception](https://acodedog.github.io/OmniPerceptionPages/) & GLOVER++).
+- *2025*: &nbsp; Two papers accepted by **CoRL 2025** ([OmniPerception](https://acodedog.github.io/OmniPerceptionPages/) & [GLOVER++](https://teleema.github.io/projects/GLOVER++/)).
 - *2025*: &nbsp; Two papers accepted by **IROS 2025** ([Diffusion Planner](https://shangjaven.github.io/preference-aligned-diffusion-legged/) & [DISCOVERSE](https://air-discoverse.github.io/)).
 - *2025*: &nbsp; One paper accepted by **CVPR 2025** on [mitigating human-robot domain discrepancy](https://jiaming-zhou.github.io/projects/HumanRobotAlign/).
 - *2024*: &nbsp; One paper accepted by **CoRL 2024** on [contrastive imitation learning](https://teleema.github.io/projects/Sigma_Agent/).
@@ -152,7 +152,7 @@ If you have any interesting projects related to legged robots, please contact me
   <div class='paper-box-text'>
     <h3>DiT4DiT: Jointly Modeling Video Dynamics and Actions for Generalizable Robot Control</h3>
     <div class="authors">T Ma, J Zheng, <strong>Z Wang</strong>, C Jiang, A Cui, J Liang, S Yang</div>
-    <div class="venue">arXiv 2025</div>
+    <div class="venue">arXiv 2026</div>
     <div class="links">
       <a href="https://dit4dit.github.io/" class="btn-accent"><i class="fas fa-globe"></i> Project Page</a>
       <a href="https://arxiv.org/abs/2603.10448" class="btn-accent"><i class="fas fa-file-pdf"></i> arXiv</a>
@@ -176,6 +176,9 @@ If you have any interesting projects related to legged robots, please contact me
     <h3>GLOVER++: Unleashing the Potential of Affordance Learning from Human Behaviors for Robotic Manipulation</h3>
     <div class="authors">T Ma, J Zheng, <strong>Z Wang</strong>, Z Gao, J Zhou, J Liang</div>
     <div class="venue">CoRL 2025</div>
+    <div class="links">
+      <a href="https://teleema.github.io/projects/GLOVER++/" class="btn-accent"><i class="fas fa-globe"></i> Project Page</a>
+    </div>
   </div>
 </div>
 
