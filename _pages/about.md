@@ -83,7 +83,7 @@ If you have any interesting projects related to legged robots, please contact me
     <div class="authors"><strong>Z Wang</strong>, et al.</div>
     <div class="venue"><span class="badge">Under Review</span></div>
     <div class="links">
-      <a href="https://acodedog.github.io/perceptive-bfm-page/" class="btn-accent"><i class="fas fa-globe"></i> Project Page</a>
+      <a href="https://acodedog.github.io/perceptive-bfm/" class="btn-accent"><i class="fas fa-globe"></i> Project Page</a>
     </div>
   </div>
 </div>
