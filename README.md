@@ -4,6 +4,20 @@ My personal academic homepage built with Jekyll, based on the [AcadHomepage](htt
 
 **Live site:** https://aCodeDog.github.io
 
+## Featured Code & GitHub Stats
+
+<!-- GITHUB-STATS:START -->
+Tracked GitHub stars: **1,987** across **5** repositories, plus **145** forks. Updated 2026-07-03 UTC.
+
+| Project | Page | Code | Stars |
+| --- | --- | --- | ---: |
+| UniLab | [Project Page](https://unilabsim.github.io/) | [unilabsim/UniLab](https://github.com/unilabsim/UniLab) | 816 |
+| GS-Playground | [Project Page](https://gsplayground.github.io/) | [discoverse-dev/gs_playground](https://github.com/discoverse-dev/gs_playground) | 426 |
+| DiT4DiT | [Project Page](https://dit4dit.github.io/) | [Mondo-Robotics/DiT4DiT](https://github.com/Mondo-Robotics/DiT4DiT) | 382 |
+| Awesome Loco-Manipulation | - | [aCodeDog/awesome-loco-manipulation](https://github.com/aCodeDog/awesome-loco-manipulation) | 299 |
+| Genesis Legged Gym | - | [aCodeDog/genesis_legged_gym](https://github.com/aCodeDog/genesis_legged_gym) | 64 |
+<!-- GITHUB-STATS:END -->
+
 ## Local Development
 
 ```bash

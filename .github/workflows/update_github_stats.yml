@@ -1,0 +1,43 @@
+name: Update GitHub Stats
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "20 8 * * *"
+  push:
+    paths:
+      - "_data/github_repos.yml"
+      - "scripts/update_github_stats.rb"
+      - ".github/workflows/update_github_stats.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.2"
+
+      - name: Update README GitHub stats
+        run: ruby scripts/update_github_stats.rb
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit stats update
+        run: |
+          if git diff --quiet README.md; then
+            echo "README GitHub stats are already up to date."
+            exit 0
+          fi
+
+          git config user.name "${GITHUB_ACTOR}"
+          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+          git add README.md
+          git commit -m "Update GitHub stats"
+          git push

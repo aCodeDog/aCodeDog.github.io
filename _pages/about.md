@@ -62,15 +62,125 @@ If you have any interesting projects related to legged robots, please contact me
 
 # <i class="fas fa-fire"></i> News
 - *2026*: &nbsp; New project: [**Perceptive Behavior Foundation Model**](https://acodedog.github.io/perceptive-bfm/) — adapting human motion priors to robot-centric terrain (under review).
-- *2026*: &nbsp; One paper accepted by **RSS 2026**: [**GS-Playground**](https://gsplayground.github.io/), a high-throughput photorealistic simulator for vision-informed robot learning.
-- *2026*: &nbsp; New preprint: [**UniLab**](https://unilabsim.github.io/) — a heterogeneous architecture for robot RL beyond GPU-dominant paradigms.
-- *2026*: &nbsp; New preprint: [**DiT4DiT**](https://dit4dit.github.io/) — jointly modeling video dynamics and actions for generalizable robot control.
+- *2026*: &nbsp; One paper accepted by **RSS 2026**: [**GS-Playground**](https://gsplayground.github.io/) ([Code](https://github.com/discoverse-dev/gs_playground)), a high-throughput photorealistic simulator for vision-informed robot learning.
+- *2026*: &nbsp; New preprint: [**UniLab**](https://unilabsim.github.io/) ([Code](https://github.com/unilabsim/UniLab)) — a heterogeneous architecture for robot RL beyond GPU-dominant paradigms.
+- *2026*: &nbsp; New preprint: [**DiT4DiT**](https://dit4dit.github.io/) ([Code](https://github.com/Mondo-Robotics/DiT4DiT)) — jointly modeling video dynamics and actions for generalizable robot control.
 - *2025*: &nbsp; One paper accepted by **NeurIPS 2025** on vision-language-action cross-task generalization.
 - *2025*: &nbsp; Two papers accepted by **CoRL 2025** ([OmniPerception](https://acodedog.github.io/OmniPerceptionPages/) & [GLOVER++](https://teleema.github.io/projects/GLOVER++/)).
 - *2025*: &nbsp; Two papers accepted by **IROS 2025** ([Diffusion Planner](https://shangjaven.github.io/preference-aligned-diffusion-legged/) & [DISCOVERSE](https://air-discoverse.github.io/)).
 - *2025*: &nbsp; One paper accepted by **CVPR 2025** on [mitigating human-robot domain discrepancy](https://jiaming-zhou.github.io/projects/HumanRobotAlign/).
 - *2024*: &nbsp; One paper accepted by **CoRL 2024** on [contrastive imitation learning](https://teleema.github.io/projects/Sigma_Agent/).
 - *2024*: &nbsp; One paper accepted by **IROS 2024** on [loco-manipulation for wheel-legged robots](https://github.com/aCodeDog/legged-robots-manipulation).
+
+# <i class="fab fa-github"></i> GitHub Stats
+
+{% capture githubStatsRepos %}{% for repo in site.data.github_repos %}{% if repo.include_in_stats %}{{ repo.github }}{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}{% endcapture %}
+<div id="github-stats" class="github-stats-section" data-repos="{{ githubStatsRepos | strip }}">
+  <div class="github-stats-summary">
+    <div class="github-stat-card floating-card">
+      <span class="github-stat-value" data-github-total-stars>--</span>
+      <span class="github-stat-label"><i class="fas fa-star"></i> Total Stars</span>
+    </div>
+    <div class="github-stat-card floating-card">
+      <span class="github-stat-value" data-github-total-forks>--</span>
+      <span class="github-stat-label"><i class="fas fa-code-branch"></i> Total Forks</span>
+    </div>
+    <div class="github-stat-card floating-card">
+      <span class="github-stat-value">{{ site.data.github_repos | size }}</span>
+      <span class="github-stat-label"><i class="fab fa-github"></i> Tracked Repos</span>
+    </div>
+  </div>
+
+  <div class="github-repo-grid">
+    {% for repo in site.data.github_repos %}
+    {% if repo.include_in_stats %}
+    <div class="github-repo-card floating-card">
+      <div class="github-repo-header">
+        <h3>{{ repo.title }}</h3>
+        <span class="github-repo-type">{{ repo.type }}</span>
+      </div>
+      <p>{{ repo.description }}</p>
+      <div class="github-repo-meta">
+        <span><i class="fas fa-star"></i> <span data-github-repo-stars="{{ repo.github }}">--</span></span>
+        <span><i class="fas fa-code-branch"></i> <span data-github-repo-forks="{{ repo.github }}">--</span></span>
+      </div>
+      <div class="links">
+        {% if repo.page_url %}
+        <a href="{{ repo.page_url }}" class="btn-accent"><i class="fas fa-globe"></i> Project Page</a>
+        {% endif %}
+        <a href="https://github.com/{{ repo.github }}" class="btn-accent"><i class="fab fa-github"></i> Code</a>
+      </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const statsRoot = document.getElementById('github-stats');
+  if (!statsRoot) {
+    return;
+  }
+
+  const repos = (statsRoot.dataset.repos || '')
+    .split(',')
+    .map(repo => repo.trim())
+    .filter(Boolean);
+
+  if (!repos.length || !window.fetch) {
+    return;
+  }
+
+  const formatter = new Intl.NumberFormat('en-US');
+  const setText = (selector, value) => {
+    const node = statsRoot.querySelector(selector);
+    if (node) {
+      node.textContent = formatter.format(value);
+    }
+  };
+  const setRepoMetric = (attribute, repo, value) => {
+    statsRoot.querySelectorAll(`[${attribute}]`).forEach(node => {
+      if (node.getAttribute(attribute) === repo) {
+        node.textContent = formatter.format(value);
+      }
+    });
+  };
+
+  Promise.allSettled(repos.map(repo => (
+    fetch(`https://api.github.com/repos/${repo}`, {
+      headers: { Accept: 'application/vnd.github+json' }
+    })
+      .then(response => {
+        if (!response.ok) {
+          throw new Error(`GitHub API ${response.status}`);
+        }
+        return response.json();
+      })
+  ))).then(results => {
+    const repoStats = results
+      .filter(result => result.status === 'fulfilled')
+      .map(result => result.value)
+      .filter(repo => repo && repo.full_name);
+
+    if (!repoStats.length) {
+      statsRoot.classList.add('github-stats-unavailable');
+      return;
+    }
+
+    const totalStars = repoStats.reduce((sum, repo) => sum + (repo.stargazers_count || 0), 0);
+    const totalForks = repoStats.reduce((sum, repo) => sum + (repo.forks_count || 0), 0);
+
+    setText('[data-github-total-stars]', totalStars);
+    setText('[data-github-total-forks]', totalForks);
+
+    repoStats.forEach(repo => {
+      setRepoMetric('data-github-repo-stars', repo.full_name, repo.stargazers_count || 0);
+      setRepoMetric('data-github-repo-forks', repo.full_name, repo.forks_count || 0);
+    });
+  });
+});
+</script>
 
 # <i class="fas fa-file-alt"></i> Publications
 
@@ -152,7 +262,7 @@ If you have any interesting projects related to legged robots, please contact me
   <div class='paper-box-text'>
     <h3>DiT4DiT: Jointly Modeling Video Dynamics and Actions for Generalizable Robot Control</h3>
     <div class="authors">T Ma, J Zheng, <strong>Z Wang</strong>, C Jiang, A Cui, J Liang, S Yang</div>
-    <div class="venue">arXiv 2026</div>
+    <div class="venue">arXiv 2026 &nbsp; <a href="https://github.com/Mondo-Robotics/DiT4DiT/stargazers"><img src="https://img.shields.io/github/stars/Mondo-Robotics/DiT4DiT?style=social" alt="GitHub stars" /></a></div>
     <div class="links">
       <a href="https://dit4dit.github.io/" class="btn-accent"><i class="fas fa-globe"></i> Project Page</a>
       <a href="https://arxiv.org/abs/2603.10448" class="btn-accent"><i class="fas fa-file-pdf"></i> arXiv</a>
@@ -225,7 +335,7 @@ If you have any interesting projects related to legged robots, please contact me
   <div class='paper-box-text'>
     <h3>GS-Playground: A High-Throughput Photorealistic Simulator for Vision-Informed Robot Learning</h3>
     <div class="authors">Y Jia, H Zhang, Z Zhang, J Wu, M Yu, <strong>Z Wang</strong>, et al.</div>
-    <div class="venue">RSS 2026</div>
+    <div class="venue">RSS 2026 &nbsp; <a href="https://github.com/discoverse-dev/gs_playground/stargazers"><img src="https://img.shields.io/github/stars/discoverse-dev/gs_playground?style=social" alt="GitHub stars" /></a></div>
     <div class="links">
       <a href="https://gsplayground.github.io/" class="btn-accent"><i class="fas fa-globe"></i> Project Page</a>
       <a href="https://arxiv.org/abs/2604.25459" class="btn-accent"><i class="fas fa-file-pdf"></i> arXiv</a>
@@ -239,7 +349,7 @@ If you have any interesting projects related to legged robots, please contact me
   <div class='paper-box-text'>
     <h3>UniLab: A Heterogeneous Architecture for Robot RL Beyond GPU-Dominant Paradigms</h3>
     <div class="authors">Y Jia, Z Cao, M Yu, H Zhang, S Chen, D Jiang, ..., <strong>Z Wang</strong>, et al.</div>
-    <div class="venue">arXiv 2026</div>
+    <div class="venue">arXiv 2026 &nbsp; <a href="https://github.com/unilabsim/UniLab/stargazers"><img src="https://img.shields.io/github/stars/unilabsim/UniLab?style=social" alt="GitHub stars" /></a></div>
     <div class="links">
       <a href="https://unilabsim.github.io/" class="btn-accent"><i class="fas fa-globe"></i> Project Page</a>
       <a href="https://arxiv.org/abs/2605.30313" class="btn-accent"><i class="fas fa-file-pdf"></i> arXiv</a>
@@ -271,27 +381,21 @@ If you have any interesting projects related to legged robots, please contact me
 
 ## Open Source Projects
 
+{% for repo in site.data.github_repos %}
+{% if repo.show_as_project %}
 <div class='paper-box floating-card'>
   <div class='paper-box-text'>
-    <h3>Genesis Legged Gym — Legged Robots Framework for Genesis</h3>
+    <h3>{{ repo.title }}</h3>
     <div class="authors"><strong>Zifan Wang</strong></div>
-    <div class="venue">Open Source &nbsp; <a href="https://github.com/aCodeDog/genesis_legged_gym/stargazers"><img src="https://img.shields.io/github/stars/aCodeDog/genesis_legged_gym?style=social" alt="GitHub stars" /></a></div>
+    <div class="venue">Open Source &nbsp; <a href="https://github.com/{{ repo.github }}/stargazers"><img src="https://img.shields.io/github/stars/{{ repo.github }}?style=social" alt="GitHub stars" /></a></div>
+    <p>{{ repo.description }}</p>
     <div class="links">
-      <a href="https://github.com/aCodeDog/genesis_legged_gym" class="btn-accent"><i class="fab fa-github"></i> Code</a>
+      <a href="https://github.com/{{ repo.github }}" class="btn-accent"><i class="fab fa-github"></i> Code</a>
     </div>
   </div>
 </div>
-
-<div class='paper-box floating-card'>
-  <div class='paper-box-text'>
-    <h3>Awesome Loco-Manipulation: A Curated List</h3>
-    <div class="authors"><strong>Zifan Wang</strong></div>
-    <div class="venue">Open Source &nbsp; <a href="https://github.com/aCodeDog/awesome-loco-manipulation/stargazers"><img src="https://img.shields.io/github/stars/aCodeDog/awesome-loco-manipulation?style=social" alt="GitHub stars" /></a></div>
-    <div class="links">
-      <a href="https://github.com/aCodeDog/awesome-loco-manipulation" class="btn-accent"><i class="fab fa-github"></i> Code</a>
-    </div>
-  </div>
-</div>
+{% endif %}
+{% endfor %}
 
 # <i class="fas fa-graduation-cap"></i> Education
 

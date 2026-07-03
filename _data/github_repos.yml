@@ -1,0 +1,39 @@
+- title: UniLab
+  github: unilabsim/UniLab
+  page_url: https://unilabsim.github.io/
+  description: Heterogeneous architecture for robot RL beyond GPU-dominant paradigms.
+  type: Research Code
+  include_in_stats: true
+  show_as_project: false
+
+- title: GS-Playground
+  github: discoverse-dev/gs_playground
+  page_url: https://gsplayground.github.io/
+  description: High-throughput photorealistic simulator for vision-informed robot learning.
+  type: Research Code
+  include_in_stats: true
+  show_as_project: false
+
+- title: DiT4DiT
+  github: Mondo-Robotics/DiT4DiT
+  page_url: https://dit4dit.github.io/
+  description: Joint video dynamics and action modeling for generalizable robot control.
+  type: Research Code
+  include_in_stats: true
+  show_as_project: false
+
+- title: Awesome Loco-Manipulation
+  github: aCodeDog/awesome-loco-manipulation
+  page_url:
+  description: Curated resources for loco-manipulation research and engineering.
+  type: Open Source
+  include_in_stats: true
+  show_as_project: true
+
+- title: Genesis Legged Gym
+  github: aCodeDog/genesis_legged_gym
+  page_url:
+  description: Legged robot training framework for the Genesis simulator.
+  type: Open Source
+  include_in_stats: true
+  show_as_project: true
