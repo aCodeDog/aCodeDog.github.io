@@ -7,12 +7,12 @@ My personal academic homepage built with Jekyll, based on the [AcadHomepage](htt
 ## Featured Code & GitHub Stats
 
 <!-- GITHUB-STATS:START -->
-Tracked GitHub stars: **1,990** across **5** repositories, plus **146** forks. Updated 2026-07-04 UTC.
+Tracked GitHub stars: **1,993** across **5** repositories, plus **148** forks. Updated 2026-07-05 UTC.
 
 | Project | Page | Code | Stars |
 | --- | --- | --- | ---: |
-| UniLab | [Project Page](https://unilabsim.github.io/) | [unilabsim/UniLab](https://github.com/unilabsim/UniLab) | 819 |
-| GS-Playground | [Project Page](https://gsplayground.github.io/) | [discoverse-dev/gs_playground](https://github.com/discoverse-dev/gs_playground) | 426 |
+| UniLab | [Project Page](https://unilabsim.github.io/) | [unilabsim/UniLab](https://github.com/unilabsim/UniLab) | 821 |
+| GS-Playground | [Project Page](https://gsplayground.github.io/) | [discoverse-dev/gs_playground](https://github.com/discoverse-dev/gs_playground) | 427 |
 | DiT4DiT | [Project Page](https://dit4dit.github.io/) | [Mondo-Robotics/DiT4DiT](https://github.com/Mondo-Robotics/DiT4DiT) | 383 |
 | Awesome Loco-Manipulation | - | [aCodeDog/awesome-loco-manipulation](https://github.com/aCodeDog/awesome-loco-manipulation) | 298 |
 | Genesis Legged Gym | - | [aCodeDog/genesis_legged_gym](https://github.com/aCodeDog/genesis_legged_gym) | 64 |
