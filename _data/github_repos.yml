@@ -1,3 +1,11 @@
+- title: PMT
+  github: Mondo-Robotics/PMT
+  page_url: https://acodedog.github.io/perceptive-bfm/
+  description: Official implementation of Perceptive Behavior Foundation Model.
+  type: Research Code
+  include_in_stats: true
+  show_as_project: false
+
 - title: UniLab
   github: unilabsim/UniLab
   page_url: https://unilabsim.github.io/

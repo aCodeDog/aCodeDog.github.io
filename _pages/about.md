@@ -61,7 +61,7 @@ If you have any interesting projects related to legged robots, please contact me
 </div>
 
 # <i class="fas fa-fire"></i> News
-- *2026*: &nbsp; New project: [**Perceptive Behavior Foundation Model**](https://acodedog.github.io/perceptive-bfm/) — adapting human motion priors to robot-centric terrain (under review).
+- *2026*: &nbsp; New project: [**Perceptive Behavior Foundation Model**](https://acodedog.github.io/perceptive-bfm/) ([Code](https://github.com/Mondo-Robotics/PMT)) — adapting human motion priors to robot-centric terrain (under review).
 - *2026*: &nbsp; One paper accepted by **RSS 2026**: [**GS-Playground**](https://gsplayground.github.io/) ([Code](https://github.com/discoverse-dev/gs_playground)), a high-throughput photorealistic simulator for vision-informed robot learning.
 - *2026*: &nbsp; New preprint: [**UniLab**](https://unilabsim.github.io/) ([Code](https://github.com/unilabsim/UniLab)) — a heterogeneous architecture for robot RL beyond GPU-dominant paradigms.
 - *2026*: &nbsp; New preprint: [**DiT4DiT**](https://dit4dit.github.io/) ([Code](https://github.com/Mondo-Robotics/DiT4DiT)) — jointly modeling video dynamics and actions for generalizable robot control.
@@ -191,9 +191,10 @@ document.addEventListener('DOMContentLoaded', function() {
   <div class='paper-box-text'>
     <h3>Perceptive Behavior Foundation Model: Adapting Human Motion Priors to Robot-Centric Terrain</h3>
     <div class="authors"><strong>Z Wang</strong>, et al.</div>
-    <div class="venue"><span class="badge">Under Review</span></div>
+    <div class="venue"><span class="badge">Under Review</span> &nbsp; <a href="https://github.com/Mondo-Robotics/PMT/stargazers"><img src="https://img.shields.io/github/stars/Mondo-Robotics/PMT?style=social" alt="GitHub stars" /></a></div>
     <div class="links">
       <a href="https://acodedog.github.io/perceptive-bfm/" class="btn-accent"><i class="fas fa-globe"></i> Project Page</a>
+      <a href="https://github.com/Mondo-Robotics/PMT" class="btn-accent"><i class="fab fa-github"></i> Code</a>
     </div>
   </div>
 </div>
