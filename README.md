@@ -7,14 +7,14 @@ My personal academic homepage built with Jekyll, based on the [AcadHomepage](htt
 ## Featured Code & GitHub Stats
 
 <!-- GITHUB-STATS:START -->
-Tracked GitHub stars: **2,124** across **6** repositories, plus **158** forks. Updated 2026-07-10 UTC.
+Tracked GitHub stars: **2,136** across **6** repositories, plus **159** forks. Updated 2026-07-11 UTC.
 
 | Project | Page | Code | Stars |
 | --- | --- | --- | ---: |
-| PMT | [Project Page](https://acodedog.github.io/perceptive-bfm/) | [Mondo-Robotics/PMT](https://github.com/Mondo-Robotics/PMT) | 104 |
+| PMT | [Project Page](https://acodedog.github.io/perceptive-bfm/) | [Mondo-Robotics/PMT](https://github.com/Mondo-Robotics/PMT) | 115 |
 | UniLab | [Project Page](https://unilabsim.github.io/) | [unilabsim/UniLab](https://github.com/unilabsim/UniLab) | 828 |
 | GS-Playground | [Project Page](https://gsplayground.github.io/) | [discoverse-dev/gs_playground](https://github.com/discoverse-dev/gs_playground) | 433 |
-| DiT4DiT | [Project Page](https://dit4dit.github.io/) | [Mondo-Robotics/DiT4DiT](https://github.com/Mondo-Robotics/DiT4DiT) | 393 |
+| DiT4DiT | [Project Page](https://dit4dit.github.io/) | [Mondo-Robotics/DiT4DiT](https://github.com/Mondo-Robotics/DiT4DiT) | 394 |
 | Awesome Loco-Manipulation | - | [aCodeDog/awesome-loco-manipulation](https://github.com/aCodeDog/awesome-loco-manipulation) | 302 |
 | Genesis Legged Gym | - | [aCodeDog/genesis_legged_gym](https://github.com/aCodeDog/genesis_legged_gym) | 64 |
 <!-- GITHUB-STATS:END -->
