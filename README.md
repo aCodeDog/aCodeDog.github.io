@@ -7,7 +7,7 @@ My personal academic homepage built with Jekyll, based on the [AcadHomepage](htt
 ## Featured Code & GitHub Stats
 
 <!-- GITHUB-STATS:START -->
-Tracked GitHub stars: **2,366** across **6** repositories, plus **178** forks. Updated 2026-08-11 UTC.
+Tracked GitHub stars: **2,366** across **6** repositories, plus **180** forks. Updated 2026-08-12 UTC.
 
 | Project | Page | Code | Stars |
 | --- | --- | --- | ---: |
