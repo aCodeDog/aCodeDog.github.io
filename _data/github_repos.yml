@@ -7,7 +7,7 @@
   show_as_project: false
 
 - title: UniLab
-  github: unilabsim/UniLab
+  github: Motphys/UniLab
   page_url: https://unilabsim.github.io/
   description: Heterogeneous architecture for robot RL beyond GPU-dominant paradigms.
   type: Research Code

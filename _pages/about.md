@@ -19,51 +19,50 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-My name is <span class="accent-text">Zifan Wang</span>. I am a PhD student in Artificial Intelligence at <i class="fas fa-university"></i> **The Hong Kong University of Science and Technology (Guangzhou)**, supervised by Prof. Junwei Liang.
-
-<div class="quote-accent">
-My primary research focus is on <span class="primary-gradient-text">legged robots</span>, including quadrupeds, humanoids, and wheeled-legged robots. I work on optimal control, reinforcement learning, and loco-manipulation.
-</div>
-
-If you have any interesting projects related to legged robots, please contact me! I am very eager to collaborate on creating intelligent robots.
-
-<div class="quote-accent">
-<i class="fas fa-briefcase"></i> <strong>I am currently on the job market.</strong> I am actively seeking opportunities related to <span class="primary-gradient-text">(visual) behavior foundation models</span> and <span class="primary-gradient-text">world models for humanoids</span>. If you have a suitable position or collaboration in mind, I would love to hear from you — please feel free to reach out!
-</div>
-
-<div class="highlight-blocks">
-  <div class="highlight-block floating-card">
-    <h3><i class="fas fa-robot"></i> Robotics Researcher</h3>
-    <ul>
-      <li>Research focus on <span class="accent-text">Legged Robots</span></li>
-      <li>Publications at <span class="accent-text">RSS</span>, <span class="accent-text">NeurIPS</span>, <span class="accent-text">CoRL</span>, <span class="accent-text">CVPR</span>, <span class="accent-text">IROS</span></li>
-      <li>Optimal control & <span class="primary-gradient-text">Reinforcement Learning</span></li>
-    </ul>
+<section class="profile-hero">
+  <div class="profile-hero__content">
+    <p class="profile-hero__eyebrow">Legged Robots / Behavior Foundation Models / World Models</p>
+    <h1>Zifan Wang</h1>
+    <p class="profile-hero__lead">
+      PhD student in Artificial Intelligence at <strong>The Hong Kong University of Science and Technology (Guangzhou)</strong>, supervised by Prof. Junwei Liang. I work on legged robots, including quadrupeds, humanoids, and wheeled-legged robots, with a focus on optimal control, reinforcement learning, loco-manipulation, and robot-centric world modeling.
+    </p>
+    <div class="profile-hero__actions" aria-label="Profile links">
+      <a class="hero-icon-link" href="https://github.com/aCodeDog" aria-label="GitHub"><i class="fab fa-github"></i></a>
+      <a class="hero-icon-link" href="https://scholar.google.com/citations?user=GaJXZ-UAAAAJ" aria-label="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+      <a class="hero-icon-link" href="mailto:zwang765@connect.hkust-gz.edu.cn" aria-label="Email"><i class="fas fa-envelope"></i></a>
+      <a class="hero-icon-link" href="{{ '/files/cv.pdf' | relative_url }}" aria-label="CV"><i class="fas fa-file-pdf"></i></a>
+    </div>
+    <div class="profile-hero__notice">
+      <i class="fas fa-briefcase"></i>
+      <span><strong>Currently on the job market.</strong> Open to roles in visual behavior foundation models and humanoid world models.</span>
+    </div>
   </div>
-
-  <div class="highlight-block floating-card">
-    <h3><i class="fas fa-microchip"></i> Full-Stack Roboticist</h3>
-    <ul>
-      <li>Software: <span class="accent-text">Python, C/C++, ROS/ROS2</span></li>
-      <li>Hardware: <span class="accent-text">STM32, Jetson</span></li>
-      <li>Design: <span class="primary-gradient-text">SolidWorks, Altium Designer</span></li>
-    </ul>
+  <div class="profile-hero__notes" aria-label="Research profile highlights">
+    <div class="profile-note">
+      <span class="profile-note__label">Research</span>
+      <span class="profile-note__body">Legged robots, locomotion, reinforcement learning, loco-manipulation</span>
+    </div>
+    <div class="profile-note">
+      <span class="profile-note__label">Venues</span>
+      <span class="profile-note__body">RSS, NeurIPS, CoRL, CVPR, IROS</span>
+    </div>
+    <div class="profile-note">
+      <span class="profile-note__label">Stack</span>
+      <span class="profile-note__body">Python, C/C++, ROS/ROS2, STM32, Jetson, SolidWorks, Altium Designer</span>
+    </div>
+    <div class="profile-note">
+      <span class="profile-note__label">Service</span>
+      <span class="profile-note__body">Reviewer for T-RO, RAL, IROS, CoRL, ICCV, Humanoids</span>
+    </div>
   </div>
-
-  <div class="highlight-block floating-card">
-    <h3><i class="fas fa-users"></i> Academic Service</h3>
-    <ul>
-      <li>Reviewer for <span class="accent-text">T-RO, RAL, IROS</span></li>
-      <li>Reviewer for <span class="accent-text">CoRL, ICCV</span></li>
-      <li>Reviewer for <span class="primary-gradient-text">Humanoids</span></li>
-    </ul>
-  </div>
-</div>
+</section>
 
 # <i class="fas fa-fire"></i> News
-- *2026*: &nbsp; New project: [**Perceptive Behavior Foundation Model**](https://acodedog.github.io/perceptive-bfm/) ([Code](https://github.com/Mondo-Robotics/PMT)) — adapting human motion priors to robot-centric terrain (under review).
+- *2026.09*: &nbsp; 🎉 Four papers accepted by **CoRL 2026**: [**Perceptive Behavior Foundation Model**](https://acodedog.github.io/perceptive-bfm/) (first author), [**UniLab**](https://unilabsim.github.io/), **MeshMimic**, and **SOLO**.
+- *2026*: &nbsp; 🎉 Two papers accepted by the **RSS 2026 Workshop on Whole-body Control and Bimanual Manipulation** ([Perceptive BFM](https://acodedog.github.io/perceptive-bfm/) & [UniLab](https://unilabsim.github.io/)).
+- *2026*: &nbsp; New preprint: [**Perceptive Behavior Foundation Model**](https://acodedog.github.io/perceptive-bfm/) ([arXiv](https://arxiv.org/abs/2606.08059), [Code](https://github.com/Mondo-Robotics/PMT)) — adapting human motion priors to robot-centric terrain.
 - *2026*: &nbsp; One paper accepted by **RSS 2026**: [**GS-Playground**](https://gsplayground.github.io/) ([Code](https://github.com/discoverse-dev/gs_playground)), a high-throughput photorealistic simulator for vision-informed robot learning.
-- *2026*: &nbsp; New preprint: [**UniLab**](https://unilabsim.github.io/) ([Code](https://github.com/unilabsim/UniLab)) — a heterogeneous architecture for robot RL beyond GPU-dominant paradigms.
+- *2026*: &nbsp; New preprint: [**UniLab**](https://unilabsim.github.io/) ([Code](https://github.com/Motphys/UniLab)) — a heterogeneous architecture for robot RL beyond GPU-dominant paradigms.
 - *2026*: &nbsp; New preprint: [**DiT4DiT**](https://dit4dit.github.io/) ([Code](https://github.com/Mondo-Robotics/DiT4DiT)) — jointly modeling video dynamics and actions for generalizable robot control.
 - *2025*: &nbsp; One paper accepted by **NeurIPS 2025** on vision-language-action cross-task generalization.
 - *2025*: &nbsp; Two papers accepted by **CoRL 2025** ([OmniPerception](https://acodedog.github.io/OmniPerceptionPages/) & [GLOVER++](https://teleema.github.io/projects/GLOVER++/)).
@@ -146,18 +145,42 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     });
   };
-
-  Promise.allSettled(repos.map(repo => (
-    fetch(`https://api.github.com/repos/${repo}`, {
-      headers: { Accept: 'application/vnd.github+json' }
+  const fetchJson = (url) => (
+    fetch(url).then(response => {
+      if (!response.ok) {
+        throw new Error(`Fetch failed ${response.status}`);
+      }
+      return response.json();
     })
-      .then(response => {
-        if (!response.ok) {
-          throw new Error(`GitHub API ${response.status}`);
-        }
-        return response.json();
-      })
-  ))).then(results => {
+  );
+  const parseShieldCount = (value) => {
+    if (typeof value === 'number') {
+      return value;
+    }
+
+    const text = String(value || '0').trim().toLowerCase().replace(/,/g, '');
+    const multiplier = text.endsWith('k') ? 1000 : text.endsWith('m') ? 1000000 : 1;
+    const number = parseFloat(text.replace(/[km]$/, ''));
+    return Number.isFinite(number) ? Math.round(number * multiplier) : 0;
+  };
+  const fetchRepoStats = (repo) => (
+    fetchJson(`https://api.github.com/repos/${repo}`)
+      .then(apiRepo => ({
+        full_name: apiRepo.full_name || repo,
+        stargazers_count: apiRepo.stargazers_count || 0,
+        forks_count: apiRepo.forks_count || 0
+      }))
+      .catch(() => Promise.all([
+        fetchJson(`https://img.shields.io/github/stars/${repo}.json`),
+        fetchJson(`https://img.shields.io/github/forks/${repo}.json`)
+      ]).then(([stars, forks]) => ({
+        full_name: repo,
+        stargazers_count: parseShieldCount(stars.value || stars.message),
+        forks_count: parseShieldCount(forks.value || forks.message)
+      })))
+  );
+
+  Promise.allSettled(repos.map(fetchRepoStats)).then(results => {
     const repoStats = results
       .filter(result => result.status === 'fulfilled')
       .map(result => result.value)
@@ -190,10 +213,11 @@ document.addEventListener('DOMContentLoaded', function() {
   <div class='paper-box-image'><img src='images/papers/perceptive_bfm.jpg' alt='Perceptive Behavior Foundation Model' /></div>
   <div class='paper-box-text'>
     <h3>Perceptive Behavior Foundation Model: Adapting Human Motion Priors to Robot-Centric Terrain</h3>
-    <div class="authors"><strong>Z Wang</strong>, et al.</div>
-    <div class="venue"><span class="badge">Under Review</span> &nbsp; <a href="https://github.com/Mondo-Robotics/PMT/stargazers"><img src="https://img.shields.io/github/stars/Mondo-Robotics/PMT?style=social" alt="GitHub stars" /></a></div>
+    <div class="authors"><strong>Z Wang</strong>, Y Li, T Ma, Q Zhang, Y Fan, H Xu, S Yang, J Liang</div>
+    <div class="venue">CoRL 2026 &nbsp; <span class="badge">RSS 2026 WCBM Workshop</span> &nbsp; <a href="https://github.com/Mondo-Robotics/PMT/stargazers"><img src="https://img.shields.io/github/stars/Mondo-Robotics/PMT?style=social" alt="GitHub stars" /></a></div>
     <div class="links">
       <a href="https://acodedog.github.io/perceptive-bfm/" class="btn-accent"><i class="fas fa-globe"></i> Project Page</a>
+      <a href="https://arxiv.org/abs/2606.08059" class="btn-accent"><i class="fas fa-file-pdf"></i> arXiv</a>
       <a href="https://github.com/Mondo-Robotics/PMT" class="btn-accent"><i class="fab fa-github"></i> Code</a>
     </div>
   </div>
@@ -238,7 +262,15 @@ document.addEventListener('DOMContentLoaded', function() {
   <div class='paper-box-text'>
     <h3>MeshMimic: Geometry-Aware Humanoid Motion Learning through 3D Scene Reconstruction</h3>
     <div class="authors">Q Zhang, J Ma, P Liu, S Shi, Z Su, <strong>Z Wang</strong>, J Sun, W Cui, J Yu, G Han, et al.</div>
-    <div class="venue">arXiv 2026</div>
+    <div class="venue">CoRL 2026</div>
+  </div>
+</div>
+
+<div class='paper-box floating-card'>
+  <div class='paper-box-text'>
+    <h3>SOLO: Stable Omni-terrain Long-Horizon Perceptive Humanoid Locomotion</h3>
+    <div class="authors">P Sun, G Han, J Sun, J Ma, Z Su, Z Tao, P Liu, S Shi, W Cui, <strong>Z Wang</strong>, J Yu, W Zhao, et al.</div>
+    <div class="venue">CoRL 2026</div>
   </div>
 </div>
 
@@ -350,11 +382,11 @@ document.addEventListener('DOMContentLoaded', function() {
   <div class='paper-box-text'>
     <h3>UniLab: A Heterogeneous Architecture for Robot RL Beyond GPU-Dominant Paradigms</h3>
     <div class="authors">Y Jia, Z Cao, M Yu, H Zhang, S Chen, D Jiang, ..., <strong>Z Wang</strong>, et al.</div>
-    <div class="venue">arXiv 2026 &nbsp; <a href="https://github.com/unilabsim/UniLab/stargazers"><img src="https://img.shields.io/github/stars/unilabsim/UniLab?style=social" alt="GitHub stars" /></a></div>
+    <div class="venue">CoRL 2026 &nbsp; <span class="badge">RSS 2026 WCBM Workshop</span> &nbsp; <a href="https://github.com/Motphys/UniLab/stargazers"><img src="https://img.shields.io/github/stars/Motphys/UniLab?style=social" alt="GitHub stars" /></a></div>
     <div class="links">
       <a href="https://unilabsim.github.io/" class="btn-accent"><i class="fas fa-globe"></i> Project Page</a>
       <a href="https://arxiv.org/abs/2605.30313" class="btn-accent"><i class="fas fa-file-pdf"></i> arXiv</a>
-      <a href="https://github.com/unilabsim/UniLab" class="btn-accent"><i class="fab fa-github"></i> Code</a>
+      <a href="https://github.com/Motphys/UniLab" class="btn-accent"><i class="fab fa-github"></i> Code</a>
     </div>
   </div>
 </div>
