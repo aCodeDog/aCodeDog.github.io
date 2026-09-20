@@ -8,10 +8,10 @@ My personal academic homepage built with Jekyll, based on the [AcadHomepage](htt
 
 <!-- GITHUB-STATS:START -->
 <p>
-  <img alt="Tracked stars: 2,553" src="https://img.shields.io/badge/Tracked%20Stars-2%2C553-e86454?style=for-the-badge&labelColor=10233f" />
+  <img alt="Tracked stars: 2,554" src="https://img.shields.io/badge/Tracked%20Stars-2%2C554-e86454?style=for-the-badge&labelColor=10233f" />
   <img alt="Tracked forks: 208" src="https://img.shields.io/badge/Forks-208-1f9a8a?style=for-the-badge&labelColor=10233f" />
   <img alt="Tracked repositories: 6" src="https://img.shields.io/badge/Repos-6-315f8f?style=for-the-badge&labelColor=10233f" />
-  <img alt="Updated 2026-09-19 UTC" src="https://img.shields.io/badge/Updated-2026--09--19%20UTC-c9932f?style=for-the-badge&labelColor=10233f" />
+  <img alt="Updated 2026-09-20 UTC" src="https://img.shields.io/badge/Updated-2026--09--20%20UTC-c9932f?style=for-the-badge&labelColor=10233f" />
 </p>
 
 <p>
