@@ -58,12 +58,12 @@ redirect_from:
 </section>
 
 # <i class="fas fa-fire"></i> News
-- *2026.09*: &nbsp; 🎉 Four papers accepted by **CoRL 2026**: [**Perceptive Behavior Foundation Model**](https://acodedog.github.io/perceptive-bfm/), [**UniLab**](https://unilabsim.github.io/), **MeshMimic**, and **SOLO**.
+- *2026*: &nbsp; Accepted at **NeurIPS 2026**: [**DiT4DiT**](https://dit4dit.github.io/) ([Code](https://github.com/Mondo-Robotics/DiT4DiT)) — jointly modeling video dynamics and actions for generalizable robot control.
+- *2026.09*: &nbsp; 🎉 Four papers accepted by **CoRL 2026**: [**Perceptive Behavior Foundation Model**](https://acodedog.github.io/perceptive-bfm/), [**UniLab**](https://unilabsim.github.io/), [**MeshMimic**](https://meshmimic.github.io/), and [**SOLO**](https://arxiv.org/abs/2608.26583).
 - *2026*: &nbsp; 🎉 Two papers accepted by the **RSS 2026 Workshop on Whole-body Control and Bimanual Manipulation** ([Perceptive BFM](https://acodedog.github.io/perceptive-bfm/) & [UniLab](https://unilabsim.github.io/)).
 - *2026*: &nbsp; New preprint: [**Perceptive Behavior Foundation Model**](https://acodedog.github.io/perceptive-bfm/) ([arXiv](https://arxiv.org/abs/2606.08059), [Code](https://github.com/Mondo-Robotics/PMT)) — adapting human motion priors to robot-centric terrain.
 - *2026*: &nbsp; One paper accepted by **RSS 2026**: [**GS-Playground**](https://gsplayground.github.io/) ([Code](https://github.com/discoverse-dev/gs_playground)), a high-throughput photorealistic simulator for vision-informed robot learning.
 - *2026*: &nbsp; New preprint: [**UniLab**](https://unilabsim.github.io/) ([Code](https://github.com/Motphys/UniLab)) — a heterogeneous architecture for robot RL beyond GPU-dominant paradigms.
-- *2026*: &nbsp; New preprint: [**DiT4DiT**](https://dit4dit.github.io/) ([Code](https://github.com/Mondo-Robotics/DiT4DiT)) — jointly modeling video dynamics and actions for generalizable robot control.
 - *2025*: &nbsp; One paper accepted by **NeurIPS 2025** on vision-language-action cross-task generalization.
 - *2025*: &nbsp; Two papers accepted by **CoRL 2025** ([OmniPerception](https://acodedog.github.io/OmniPerceptionPages/) & [GLOVER++](https://teleema.github.io/projects/GLOVER++/)).
 - *2025*: &nbsp; Two papers accepted by **IROS 2025** ([Diffusion Planner](https://shangjaven.github.io/preference-aligned-diffusion-legged/) & [DISCOVERSE](https://air-discoverse.github.io/)).
@@ -260,7 +260,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <div class='paper-box floating-card'>
   <div class='paper-box-image'><img src='images/papers/meshmimic.jpg' alt='MeshMimic' /></div>
   <div class='paper-box-text'>
-    <h3>MeshMimic: Geometry-Aware Humanoid Motion Learning through 3D Scene Reconstruction</h3>
+    <h3><a href="https://meshmimic.github.io/">MeshMimic: Geometry-Aware Humanoid Motion Learning through 3D Scene Reconstruction</a></h3>
     <div class="authors">Q Zhang, J Ma, P Liu, S Shi, Z Su, <strong>Z Wang</strong>, J Sun, W Cui, J Yu, G Han, et al.</div>
     <div class="venue">CoRL 2026</div>
   </div>
@@ -268,7 +268,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <div class='paper-box floating-card'>
   <div class='paper-box-text'>
-    <h3>SOLO: Stable Omni-terrain Long-Horizon Perceptive Humanoid Locomotion</h3>
+    <h3><a href="https://arxiv.org/abs/2608.26583">SOLO: Stable Omni-terrain Long-Horizon Perceptive Humanoid Locomotion</a></h3>
     <div class="authors">P Sun, G Han, J Sun, J Ma, Z Su, Z Tao, P Liu, S Shi, W Cui, <strong>Z Wang</strong>, J Yu, W Zhao, et al.</div>
     <div class="venue">CoRL 2026</div>
   </div>
@@ -295,7 +295,7 @@ document.addEventListener('DOMContentLoaded', function() {
   <div class='paper-box-text'>
     <h3>DiT4DiT: Jointly Modeling Video Dynamics and Actions for Generalizable Robot Control</h3>
     <div class="authors">T Ma, J Zheng, <strong>Z Wang</strong>, C Jiang, A Cui, J Liang, S Yang</div>
-    <div class="venue">arXiv 2026 &nbsp; <a href="https://github.com/Mondo-Robotics/DiT4DiT/stargazers"><img src="https://img.shields.io/github/stars/Mondo-Robotics/DiT4DiT?style=social" alt="GitHub stars" /></a></div>
+    <div class="venue">NeurIPS 2026 &nbsp; <a href="https://github.com/Mondo-Robotics/DiT4DiT/stargazers"><img src="https://img.shields.io/github/stars/Mondo-Robotics/DiT4DiT?style=social" alt="GitHub stars" /></a></div>
     <div class="links">
       <a href="https://dit4dit.github.io/" class="btn-accent"><i class="fas fa-globe"></i> Project Page</a>
       <a href="https://arxiv.org/abs/2603.10448" class="btn-accent"><i class="fas fa-file-pdf"></i> arXiv</a>
@@ -510,4 +510,4 @@ document.addEventListener('DOMContentLoaded', function() {
 
 ---
 
-Contact: <span class="accent-text">wang_zifan@outlook.com</span> / <span class="accent-text">zwang765@connect.hkust-gz.edu.cn</span> / <span class="accent-text">+86 135 1839 3890</span>
+Contact: <span class="accent-text">wang_zifan@outlook.com</span> / <span class="accent-text">zwang765@connect.hkust-gz.edu.cn</span> / <span class="accent-text">+86 {{ site.author.phone }}</span>
